@@ -1,0 +1,84 @@
+body {
+    background-color: #f5f5f0;
+    color: #3e5f50;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 2rem 10%;
+}
+header > img {
+    display: block;
+    height: 16rem;
+    margin: 1rem auto;
+    width: auto;
+}
+nav {
+    background-color: #26877f; /* Green logo color on hover */
+    margin: 1rem 0;
+    padding: 0.6rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;    
+}
+nav a {
+    color: #f5f5f0; /* Light cream text for contrast against dark background */
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.6rem;
+    transition: background-color 0.2s, color 0.2s; /* Smooth transition for hover effect */
+}
+nav a:hover {
+    background-color: #3e5f50; /* Deep green background on hover */
+    border-radius: 5px;
+}
+section {
+    display: flex;
+}
+article {
+    border-radius: 2rem;
+    flex: 1;
+    overflow: hidden;
+    padding: 1rem;
+    position: relative;
+}
+article > img {
+    height: auto;
+    width: 100%;
+}
+.promo-background {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    opacity: 0.2;
+    top: 0;
+    width: 100%;
+    z-index: 0;    
+}
+h1 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+footer {
+    align-items: flex-end; /* Aligns the content vertically at the bottom */
+    display: flex;
+}
+footer div {
+    flex: 1;
+    margin: 0 0.6rem;
+    text-align: right;
+}
+footer img {
+    display: block;
+    height: 8rem;
+    margin: 0 auto 0 0;
+    width: auto;
+}
